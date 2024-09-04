@@ -52,4 +52,8 @@ describe('shuffleArray', () => {
         expect(input).toHaveLength(len);
         expect(input.every((n) => inputCopy.includes(n))).toBe(true);
     });
+
+    test('fail me', () => {
+        expect(true).toBe(false);
+    });
 });
